@@ -12,6 +12,8 @@ const Navigation = (props) => {
   const [menuState, setMenuState] = useState(false);
   const [ScrollTop, setScrollTop] = useState(false);
 
+  const typeFromProps = props.type ? props.type : "";
+
   const izgradnjaItems = izgradnjaMenu.map((item) => (
     <Link
       to={item.link}
@@ -37,7 +39,7 @@ const Navigation = (props) => {
   }, []);
 
   const onScroll = e => {
-    if (props.type === 'black'){
+    if (typeFromProps === 'black'){
       setScrollTop(true)
     } else {
       if (window.scrollY > 0) {
@@ -83,6 +85,7 @@ const Navigation = (props) => {
                 setMenuState(!menuState);
               }}
               src={IconClose}
+              alt="close"
             />
             <p className="logo">EKOCELL</p>
             <div className={`dropdown`}>

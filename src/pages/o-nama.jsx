@@ -33,6 +33,7 @@ const OnamaPage = () => {
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.2950041275153!2d15.792159876976374!3d45.80534997108151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765ce0cab0a8739%3A0xe34fa1a5f71acdac!2sEkocell%20d.o.o.!5e0!3m2!1sen!2shr!4v1699549521083!5m2!1sen!2shr"
               width="400"
               height="300"
+              title="Ekocell Google Map"
               style={{ border: "0" }}
               allowfullscreen=""
               loading="lazy"

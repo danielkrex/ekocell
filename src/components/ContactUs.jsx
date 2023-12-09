@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 function ContactUs(props) {
   return (
@@ -20,6 +20,7 @@ function ContactUs(props) {
               height="300"
               style={{border: "0"}}
               allowfullscreen=""
+              title="Ekocell Google Map"
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>

@@ -2,7 +2,6 @@ import drveneKuceImage from "../assets/images/ekocell-drvenekuce.png";
 import zavrsniRadoviImage from "../assets/images/ekocell-zavrsniradovi-1.png";
 import podnoGrijanjeImage from "../assets/images/ekocell-podnogrijanje.png";
 import ekoIzolacijaImage from "../assets/images/ekocell-ekoizolacija.png";
-import ekocellStrucnosavjetovanje from "../assets/images/ekocell-strucnosavjetovanje.webp";
 
 export const welcome = {
   amblem: {

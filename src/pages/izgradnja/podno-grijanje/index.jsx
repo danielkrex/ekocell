@@ -1,7 +1,7 @@
 import React, { useLayoutEffect } from "react";
 import Layout from "../../../layouts/IzgradnjaLayout";
 
-import PodnoGrijanjeImage from "../../../assets/images/ekocell-podnoGrijanje.png";
+import PodnoGrijanjeImageCustom from "../../../assets/images/ekocell-podnoGrijanje.png";
 
 const DrveneKuce = () => {
   useLayoutEffect(() => {}, []);
@@ -13,7 +13,7 @@ const DrveneKuce = () => {
       </h1>
       <div className="content-two-column pbig">
         <div className="column">
-          <img src={PodnoGrijanjeImage} alt="Eko cell podno grijanje 12V" />
+          <img src={PodnoGrijanjeImageCustom} alt="Eko cell podno grijanje 12V" />
         </div>
         <div className="column">
           <h3>Što je 12V Podno Grijanje?</h3>

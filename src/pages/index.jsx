@@ -1,4 +1,4 @@
-import React, { useEffect, useLayoutEffect, useRef } from "react";
+import React, { useLayoutEffect, useRef } from "react";
 import "../style/typography.scss";
 import "../style/main.scss";
 import Navigation from "../components/Navigation";

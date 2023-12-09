@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const EkocellIcon = (props) => {
-  const [fillColor, setfillColor] = useState(props.fillColor ? props.fillColor : "rgba(255,255,255,0.7)");
+  const fillColor = props.fillColor ? props.fillColor : "rgba(255,255,255,0.7)";
   return (
     <svg
       width="1000"

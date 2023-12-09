@@ -1,4 +1,4 @@
-import React, { useLayoutEffect, useRef } from "react";
+import React, { useLayoutEffect } from "react";
 import { Link } from "gatsby";
 
 const ArticleSection = (props) => {

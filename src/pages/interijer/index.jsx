@@ -18,7 +18,6 @@ import {
 
 const IndexPage = () => {
   const bkgRef = useRef();
-  const scrollTop = useRef();
 
   const scrollPage = () => {
     return new ScrollPage("#main-page", {

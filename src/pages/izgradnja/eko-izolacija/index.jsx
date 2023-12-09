@@ -22,6 +22,7 @@ const DrveneKuce = () => {
           <div className="eko-links">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.steico.com/fileadmin/user_upload/importer/downloads/4028b6097384810e01749719f4e85646/STEICO_Installation_instructions_Facade_insulation_en_i.pdf"
               className="steico"
             >
@@ -29,6 +30,7 @@ const DrveneKuce = () => {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.steico.com/fileadmin/user_upload/importer/downloads/4028b6097384810e0174960f58cb1943/STEICOduo_dry_en_i.pdf"
               className="steico"
             >
@@ -36,12 +38,14 @@ const DrveneKuce = () => {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://lotus.soprema.fr/www/reftechsop.nsf/($AllByUNID)/82B86054C2D1FABAC12588320023C11A/$File/TDS-NE-INSEU0039.a-EN%20ISOLAIR%20MULTI.pdf"
             >
               Pavatex Isolair Multi
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.steico.com/fileadmin/user_upload/importer/downloads/4028b6097384810e0174960f8d140710/STEICOspecial-dry_en_i.pdf"
               className="steico"
             >
@@ -55,6 +59,7 @@ const DrveneKuce = () => {
           <div className="eko-links">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.steico.com/fileadmin/user_upload/importer/downloads/4028b6097384810e01749c602cbf7c94/STEICOstandard_nature_en_i.pdf"
               className="steico"
             >
@@ -62,6 +67,7 @@ const DrveneKuce = () => {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.steico.com/fileadmin/user_upload/importer/downloads/4028b6097384810e017496e8a94062e9/STEICOfloor_en_i.pdf"
               className="steico"
             >
@@ -69,6 +75,7 @@ const DrveneKuce = () => {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.steico.com/fileadmin/user_upload/importer/downloads/4028b6097384810e017496e8dc5949b5/STEICOtherm_SD_en_i.pdf"
               className="steico"
             >
@@ -76,6 +83,7 @@ const DrveneKuce = () => {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.steico.com/en/products/insulation/underlay/impact-sound-insulation/steicoecosilent"
               className="steico"
             >
@@ -83,6 +91,7 @@ const DrveneKuce = () => {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.steico.com/fileadmin/user_upload/importer/downloads/4028b6097384810e0174971a1e7421e2/STEICOprotect_dry_en_i.pdf"
               className="steico"
             >
@@ -96,6 +105,7 @@ const DrveneKuce = () => {
           <div className="eko-links">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.steico.com/fileadmin/user_upload/importer/downloads/4028b6097ea4b73a017f3070aba80c80/STEICOflex_036_en_i.pdf"
               className="steico"
             >
@@ -103,6 +113,7 @@ const DrveneKuce = () => {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="/izgradnja/eko-izolacija/celulozna-izolacija"
             >
               Cleulozna izolacija ISOCELL
@@ -115,6 +126,7 @@ const DrveneKuce = () => {
           <div className="eko-links">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.steico.com/fileadmin/user_upload/importer/downloads/4028b6097384810e01749c3c49bb7b91/STEICOinternal_en_i.pdf.pdf"
               className="steico"
             >
@@ -122,6 +134,7 @@ const DrveneKuce = () => {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.steico.com/fileadmin/user_upload/importer/downloads/4028b69b84b29d4a01850610a21e5fbf/STEICOinternal_en_i.pdf.pdf"
               className="steico"
             >
@@ -135,6 +148,7 @@ const DrveneKuce = () => {
           <div className="eko-links">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.steico.com/fileadmin/user_upload/importer/downloads/4028b6097384810e017496484efc6d66/STEICOuniversal_black_en_i.pdf"
               className="steico"
             >
@@ -142,6 +156,7 @@ const DrveneKuce = () => {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.steico.com/fileadmin/user_upload/importer/downloads/4028b6097384810e0174960fa32d31d3/STEICOuniversal_en_i.pdf"
               className="steico"
             >
@@ -149,6 +164,7 @@ const DrveneKuce = () => {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="/izgradnja/eko-izolacija"
               className="steico"
             >
@@ -156,6 +172,7 @@ const DrveneKuce = () => {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.steico.com/fileadmin/user_upload/importer/downloads/4028b6097384810e0174960f8d140710/STEICOspecial-dry_en_i.pdf"
               className="steico"
             >
@@ -163,6 +180,7 @@ const DrveneKuce = () => {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.egger.com/get_download/60c10c02-ddbf-49ba-98a8-0c621c4f9efb/Flyer_DHF_2_pages.pdf"
               className="steico"
             >

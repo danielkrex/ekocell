@@ -10,6 +10,7 @@ const Projekti = () => {
     let projectIndex = {};
     InterijerProjekti.projects.map((projekat, index) => {
       projectIndex[`projectImage-${index}`] = false;
+      return projectIndex;
     });
     setOpen(projectIndex);
   }, []);

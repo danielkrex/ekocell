@@ -1,5 +1,4 @@
 import React, { useLayoutEffect } from "react";
-import { Link } from "gatsby";
 import Layout from "../../layouts/IzgradnjaLayout";
 import SubMenu from "../../components/SubMenu";
 import { drveneKuceMenu } from "../../content/pages-izgradnja";
@@ -13,6 +12,7 @@ const Projekti = () => {
     let projectIndex = {};
     IzgradnjaProjekti.projects.map((projekat, index) => {
       projectIndex[`projectImage-${index}`] = false;
+      return projectIndex;
     });
     setOpen(projectIndex);
   }, []);
