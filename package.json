@@ -1,0 +1,37 @@
+{
+  "name": "ekocell",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ekocell",
+  "author": "danielkreko",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@mdx-js/react": "^2.3.0",
+    "gatsby": "^5.10.0",
+    "gatsby-plugin-google-gtag": "^5.10.0",
+    "gatsby-plugin-image": "^3.10.0",
+    "gatsby-plugin-manifest": "^5.10.0",
+    "gatsby-plugin-mdx": "^5.10.0",
+    "gatsby-plugin-sass": "^6.10.0",
+    "gatsby-plugin-sharp": "^5.10.0",
+    "gatsby-plugin-sitemap": "^6.10.0",
+    "gatsby-source-filesystem": "^5.10.0",
+    "gatsby-transformer-sharp": "^5.10.0",
+    "gsap": "^3.12.2",
+    "react": "^18.2.0",
+    "react-compare-image": "^3.4.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.63.2",
+    "scrollpage-js": "^0.1.6",
+    "yet-another-react-lightbox": "^3.15.6"
+  }
+}

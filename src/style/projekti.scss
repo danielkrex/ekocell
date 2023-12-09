@@ -1,0 +1,47 @@
+@import 'variables';
+
+.project-holder {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.project-box {
+    width: calc(50% - 15px);
+    box-sizing: border-box;
+    border: 20px solid $ekocell-white;
+    background-color: $ekocell-white;
+    box-shadow: 2px 2px 10px rgba($color: $ekocell-black, $alpha: 0.1);
+
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        border: 15px solid $ekocell-white;
+    }
+
+    img {
+        width: 100%;
+        border: none;
+        border-radius: 0;
+        object-fit: cover;
+        height: 400px;
+        box-shadow: none;
+        @media screen and (max-width: 768px) {
+            height: 300px;
+        }
+    }
+
+    h3 {
+        font-family: $ekocell-font;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.2;
+        color: $ekocell-black;
+    }
+}
