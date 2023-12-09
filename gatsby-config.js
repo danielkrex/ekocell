@@ -7,6 +7,9 @@ module.exports = {
     siteUrl: `https://www.ekocell.hr`,
   },
   // "gatsby-plugin-google-gtag",
+  flags: {
+    DEV_SSR: true
+  },
   plugins: [
     "gatsby-plugin-sass",
     "gatsby-plugin-image",

@@ -7,8 +7,11 @@ import IconClose from "../assets/images/icon-close.svg";
 import { izgradnjaMenu } from "../content/pages-izgradnja";
 import { interijerMenu } from "../content/pages-interijer";
 
+// Check if window is defined (so if in the browser or in node.js).
+const isBrowser = typeof window !== "undefined"
+
 const Navigation = (props) => {
-  const [location, setlocation] = useState(window.location.pathname);
+  const [location, setlocation] = useState( isBrowser ? window.location.pathname : '');
   const [menuState, setMenuState] = useState(false);
   const [ScrollTop, setScrollTop] = useState(false);
 
@@ -35,7 +38,7 @@ const Navigation = (props) => {
   ));
 
   useEffect(() => {
-    setlocation(window.location.pathname);
+    setlocation(isBrowser ? window.location.pathname : '');
   }, []);
 
   const onScroll = e => {
@@ -55,6 +58,7 @@ const Navigation = (props) => {
   }, [])
 
   useEffect(() => {
+    
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
