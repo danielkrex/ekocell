@@ -100,8 +100,24 @@ export const drveneKuceMenu = [
 
 export const ekoIzolacijaMenu = [
   {
-    text: "Eko izolacija i materijali za brtvljenje",
+    text: "Eko izolacija i materijali",
     link: "/izgradnja/eko-izolacija",
+  },
+  {
+    text: "Steico",
+    link: "/izgradnja/eko-izolacija/steico",
+  },
+  {
+    text: "Pavatex",
+    link: "/izgradnja/eko-izolacija/pavatex",
+  },
+  {
+    text: "Agepan",
+    link: "/izgradnja/eko-izolacija/agepan",
+  },
+  {
+    text: "Egger",
+    link: "/izgradnja/eko-izolacija/egger",
   },
   {
     text: "Drvene izolacije",

@@ -117,6 +117,52 @@ for (let i = 1; i <= 6; i++) {
   });
 }
 
+const Ekocell_Grijanje_vanjsko = [];
+for (let i = 1; i <= 4; i++) {
+  Ekocell_Grijanje_vanjsko.push({
+    src: require(`../assets/images/projekti/Ekocell_Grijanje/Ekocell_Grijanje_vanjsko-0${i}.jpeg`).default,
+    alt: "Podno grijanje vanjskih površina",
+  });
+}
+
+const Ekocell_Grijanje_stambeni = [];
+for (let i = 1; i <= 6; i++) {
+  Ekocell_Grijanje_stambeni.push({
+    src: require(`../assets/images/projekti/Ekocell_Grijanje/Ekocell_Grijanje_stambeni-0${i}.jpeg`).default,
+    alt: "Podno grijanje vanjskih površina",
+  });
+}
+
+const Ekocell_Grijanje_poslovni = [];
+for (let i = 1; i <= 6; i++) {
+  Ekocell_Grijanje_poslovni.push({
+    src: require(`../assets/images/projekti/Ekocell_Grijanje/Ekocell_Grijanje_poslovni-0${i}.jpeg`).default,
+    alt: "Podno grijanje vanjskih površina",
+  });
+}
+
+
+export const GrijanjeProjekti = {
+  id: "grijanje-projekti",
+  headline: "Projekti Grijanja",
+  projects: [
+    {
+      name: "Vanjske površine",
+      images: Ekocell_Grijanje_vanjsko,
+    },
+
+    {
+      name: "Stambeni objekti",
+      images: Ekocell_Grijanje_stambeni,
+    },
+
+    {
+      name: "Poslovni objekti",
+      images: Ekocell_Grijanje_poslovni,
+    }
+  ]
+}
+
 
 export const IzgradnjaProjekti = {
   id: "izgradnja-projekti",

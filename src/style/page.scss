@@ -245,6 +245,8 @@
                     @media screen and (max-width: 768px) {
                         font-size: 14px;
                         line-height: 25px;
+                        max-height: 200px;
+                        overflow-y: auto;
                     }
                 }
 

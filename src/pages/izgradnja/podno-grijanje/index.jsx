@@ -1,19 +1,49 @@
 import React, { useLayoutEffect } from "react";
 import Layout from "../../../layouts/IzgradnjaLayout";
+import { GrijanjeProjekti } from "../../../content/pages-projekti";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
 
 import PodnoGrijanjeImageCustom from "../../../assets/images/ekocell-podnoGrijanje.png";
 
-const DrveneKuce = () => {
-  useLayoutEffect(() => {}, []);
+const PodnoGrijanje = () => {
+  useLayoutEffect(() => {
+    let projectIndex = {};
+    GrijanjeProjekti.projects.map((projekat, index) => {
+      projectIndex[`projectImage-${index}`] = false;
+      return projectIndex;
+    });
+    setOpen(projectIndex);
+  }, []);
+
+  const [open, setOpen] = React.useState({});
+
+  const imageSlides = (data) => {
+    let slides = [];
+    data.map((image) =>
+      slides.push({
+        src: image.src,
+        alt: image.alt,
+      })
+    );
+
+    return slides;
+  };
+
+  const closeLightbox = (index) => {
+    let newOpen = { ...open };
+    newOpen[`projectImage-${index}`] = !newOpen[`projectImage-${index}`];
+    setOpen(newOpen);
+  };
 
   return (
     <Layout title="Podno grijanje">
-      <h1 className="headline pbig">
-        Učinkovito Zagrijavanje za Različite Primjene
-      </h1>
       <div className="content-two-column pbig">
         <div className="column">
-          <img src={PodnoGrijanjeImageCustom} alt="Eko cell podno grijanje 12V" />
+          <img
+            src={PodnoGrijanjeImageCustom}
+            alt="Eko cell podno grijanje 12V"
+          />
         </div>
         <div className="column">
           <h3>Što je 12V Podno Grijanje?</h3>
@@ -25,8 +55,43 @@ const DrveneKuce = () => {
             toplinu. Ovo je posebno korisno za stvaranje ugodnog i ravnomjerno
             grijanog okruženja u različitim primjenama.
           </p>
+          <br />
+          <p>
+            Za više informacija o 12V podnom grijanju posjetite našu stranicu
+            posvećenu ovoj temi: <br />
+            <a target="_blank" href="https://podnogrijanje12v.com/">podnogrijanje12v.com</a>
+          </p>        
         </div>
       </div>
+
+      <h3 className="headline">
+        Učinkovito Zagrijavanje za Različite Primjene
+      </h3>
+
+      <div className="project-holder">
+        {GrijanjeProjekti.projects.map((projekat, index) => (
+          <div
+            onClick={() => {
+              closeLightbox(index);
+            }}
+            key={index}
+            className="project-box"
+          >
+            <img src={projekat.images[0].src} alt={projekat.images[0].alt} />
+            <h3>{projekat.name}</h3>
+          </div>
+        ))}
+      </div>
+
+      {GrijanjeProjekti.projects.map((projekat, index) => (
+        <Lightbox
+          open={open[`projectImage-${index}`]}
+          close={() => {
+            closeLightbox(index);
+          }}
+          slides={imageSlides(projekat.images)}
+        />
+      ))}
 
       <h3>Prednosti Korištenja 12V Podnog Grijanja</h3>
       <div className="content-two-column end">
@@ -75,10 +140,19 @@ const DrveneKuce = () => {
           </p>
         </div>
       </div>
+
+      <div className="content-one-column podno-grijanje">
+        <h3>
+          Za više informacija o 12V podnom grijanju posjetite našu stranicu
+          posvećenu ovoj temi:
+        </h3>
+        <br />
+        <a target="_blank" href="https://podnogrijanje12v.com/">podnogrijanje12v.com</a>
+      </div>
     </Layout>
   );
 };
 
-export default DrveneKuce;
+export default PodnoGrijanje;
 
-export const Head = () => <title>Drvene Kuće</title>;
+export const Head = () => <title>Ekocell - Podno grijanje</title>;
