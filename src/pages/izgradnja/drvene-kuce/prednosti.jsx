@@ -3,6 +3,15 @@ import Layout from "../../../layouts/IzgradnjaLayout";
 import SubMenu from "../../../components/SubMenu";
 import { drveneKuceMenu } from "../../../content/pages-izgradnja";
 
+import Icon1 from "../../../assets/images/ekocell-benefit-icon(1).png";
+import Icon2 from "../../../assets/images/ekocell-benefit-icon(2).png";
+import Icon3 from "../../../assets/images/ekocell-benefit-icon(3).png";
+import Icon4 from "../../../assets/images/ekocell-benefit-icon(4).png";
+import Icon5 from "../../../assets/images/ekocell-benefit-icon(5).png";
+import Icon6 from "../../../assets/images/ekocell-benefit-icon(6).png";
+import Icon7 from "../../../assets/images/ekocell-benefit-icon(7).png";
+import Icon8 from "../../../assets/images/ekocell-benefit-icon(8).png";
+
 const DrveneKuce = () => {
   useLayoutEffect(() => {}, []);
 
@@ -10,8 +19,9 @@ const DrveneKuce = () => {
     <Layout title="Drvene montažne kuće">
       <SubMenu data={drveneKuceMenu} />
       <h1 className="headline">Prednosti drvene gradnje</h1>
-      <div className="content-two-column end pbig">
+      <div className="content-two-column end pbig prednosti-table">
         <div className="column">
+          <img class="ekocell-benefit-icon" src={Icon1} alt="ekocell-benefits" />
           <h3>Energetska učinkovitost</h3>
         </div>
         <div className="column">
@@ -25,6 +35,7 @@ const DrveneKuce = () => {
           </p>
         </div>
         <div className="column">
+          <img class="ekocell-benefit-icon" src={Icon2} alt="ekocell-benefits" />
           <h3>Brzina izgradnje</h3>
         </div>
         <div className="column">
@@ -36,6 +47,7 @@ const DrveneKuce = () => {
           </p>
         </div>
         <div className="column">
+          <img class="ekocell-benefit-icon" src={Icon7} alt="ekocell-benefits" />
           <h3>Ekološka osviještenost</h3>
         </div>
         <div className="column">
@@ -48,6 +60,7 @@ const DrveneKuce = () => {
         </div>
 
         <div className="column">
+          <img class="ekocell-benefit-icon" src={Icon6} alt="ekocell-benefits" />
           <h3>Protupotresna otpornost</h3>
         </div>
         <div className="column">
@@ -64,6 +77,7 @@ const DrveneKuce = () => {
         </div>
 
         <div className="column">
+          <img class="ekocell-benefit-icon" src={Icon5} alt="ekocell-benefits" />
           <h3>Individualni pristup</h3>
         </div>
         <div className="column">
@@ -77,6 +91,7 @@ const DrveneKuce = () => {
         </div>
 
         <div className="column">
+          <img class="ekocell-benefit-icon" src={Icon4} alt="ekocell-benefits" />
           <h3>Zrakotjesnost</h3>
         </div>
         <div className="column">
@@ -98,6 +113,7 @@ const DrveneKuce = () => {
         </div>
 
         <div className="column">
+          <img class="ekocell-benefit-icon" src={Icon3} alt="ekocell-benefits" />
           <h3>Protupožarna otpornost</h3>
         </div>
         <div className="column">
@@ -112,6 +128,7 @@ const DrveneKuce = () => {
           </p>
         </div>
         <div className="column">
+          <img class="ekocell-benefit-icon" src={Icon8} alt="ekocell-benefits" />
           <h3>Trajnost</h3>
         </div>
         <div className="column">

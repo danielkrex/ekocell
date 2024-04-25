@@ -6,9 +6,13 @@ import { ekoIzolacijaMenu } from "../../../content/pages-izgradnja";
 import CelulozaProcess from "../../../assets/images/ekocell-celuloza-process.jpeg";
 import CelulozaPresjek from "../../../assets/images/ekocell-celuloza-presjek.jpeg";
 import FazniPomak from "../../../assets/images/ekocell-fazni-pomak.jpeg";
+import CelulozaStroj from "../../../assets/images/ekocell-celuloza-stroj.jpg"
+
+import CelulozaVideomp4 from "../../../assets/images/ekocell-celulozna-izolacija.mp4";
+import CelulozaVideowebm from "../../../assets/images/ekocell-celulozna-izolacija.webm";
 
 const CeluloznaIzolacija = () => {
-  useLayoutEffect(() => {}, []);
+  useLayoutEffect(() => { }, []);
 
   return (
     <Layout title="Eko izolacije">
@@ -53,23 +57,30 @@ const CeluloznaIzolacija = () => {
           <img src={CelulozaPresjek} alt="presjek kuce s celulozom" />
         </div>
       </div>
-      <div className="content-one-column pbig">
-        <h3>Štiti krovnu konstrukciju od propadanja</h3>
-        <p>
-          ISOCELL celulozna izolacija može u odnosu na druge prirodne izolacije
-          upiti otprilike dvostruko vlage, a u usporedbi s mineralnom vunom i 4x
-          više vlage, u svojoj strukturi je takva da čak i na 40% sadržaja vlage
-          na dodir je uvijek još suha. Zbog različitih temperatura unutar i
-          izvan zgrade dovodi do kondenzacije u izolacijskom sloju. Mineralna
-          (staklo, kamen)vuna i sintetički materijali ne mogu se riješiti viška
-          vlage, pa se prihvaća u drvenu konstrukciju. U instalaciji celulozne
-          izolacija Isocell upuhuje se u cijeloj debljini drva. Budući da
-          celulozna izolacija u odnosu na drvo može držati više vlage, time
-          štiti drvenu konstrukciju od prekomjernog ovlaživanja. Time celulozna
-          izolacija u normalnim uvjetima regulira vlagu u drvenoj konstrukciji,a
-          u kombinaciji s eco natur parnom branom doprinosi optimalnom stupnju
-          vlažnosti u prostoru.
-        </p>
+      <div className="content-two-column pbig">
+
+        <div className="column">
+          <h3>Štiti krovnu konstrukciju od propadanja</h3>
+          <p>
+            ISOCELL celulozna izolacija može u odnosu na druge prirodne izolacije
+            upiti otprilike dvostruko vlage, a u usporedbi s mineralnom vunom i 4x
+            više vlage, u svojoj strukturi je takva da čak i na 40% sadržaja vlage
+            na dodir je uvijek još suha. Zbog različitih temperatura unutar i
+            izvan zgrade dovodi do kondenzacije u izolacijskom sloju. Mineralna
+            (staklo, kamen)vuna i sintetički materijali ne mogu se riješiti viška
+            vlage, pa se prihvaća u drvenu konstrukciju. U instalaciji celulozne
+            izolacija Isocell upuhuje se u cijeloj debljini drva. Budući da
+            celulozna izolacija u odnosu na drvo može držati više vlage, time
+            štiti drvenu konstrukciju od prekomjernog ovlaživanja. Time celulozna
+            izolacija u normalnim uvjetima regulira vlagu u drvenoj konstrukciji,a
+            u kombinaciji s eco natur parnom branom doprinosi optimalnom stupnju
+            vlažnosti u prostoru.
+          </p>
+        </div>
+
+        <div className="column">
+          <img src={CelulozaStroj} alt="stroj za upuhavanje celuloze" />
+        </div>
       </div>
       <div className="content-one-column pbig">
         <h3>Za krovove, zidove i podove</h3>
@@ -80,6 +91,14 @@ const CeluloznaIzolacija = () => {
           dodatna izolacija na unutarnjoj stijenki trupaca i masivnih zidova.
         </p>
       </div>
+
+      <video style={{width: "100%", maxWidth: "800px"}} controls>
+        <source src={CelulozaVideomp4} type="video/mp4" />
+        <source src={CelulozaVideowebm} type="video/webm" />
+        Your browser does not support HTML video.
+      </video>
+
+      <br />
       <h3>Prednosti proizvoda</h3>
 
       <div className="content-two-column pbig">

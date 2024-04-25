@@ -47,7 +47,7 @@
                 height: 156.551px;
                 flex-shrink: 0;
 
-                @media screen and (max-width: 768px) {
+                @media screen and (max-width:1000px) {
                     width: 185.867px;
                     height: 126.551px;
                 }
@@ -61,7 +61,7 @@
                 line-height: normal;
                 color: $ekocell-white;
 
-                @media screen and (max-width: 768px) {
+                @media screen and (max-width:1000px) {
                     font-size: 79px;
                 }
             }
@@ -76,7 +76,7 @@
                 text-transform: uppercase;
                 letter-spacing: 2px;
 
-                @media screen and (max-width: 768px) {
+                @media screen and (max-width:1000px) {
                     font-size: 15px;
                 }
             }
@@ -136,7 +136,7 @@
             align-items: center;
             justify-content: center;
 
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width:1000px) {
                 position: relative;
                 flex-direction: column;
                 justify-content: initial;
@@ -145,7 +145,7 @@
             &.img-left {
                 flex-direction: row-reverse;
 
-                @media screen and (max-width: 768px) {
+                @media screen and (max-width:1000px) {
                     flex-direction: column;
                 }
             }
@@ -153,7 +153,7 @@
             &.img-right {
                 flex-direction: row;
 
-                @media screen and (max-width: 768px) {
+                @media screen and (max-width:1000px) {
                     flex-direction: column;
                 }
             }
@@ -170,7 +170,7 @@
                     object-fit: cover;
                 }
 
-                @media screen and (max-width: 768px) {
+                @media screen and (max-width:1000px) {
                     width: 90%;
                     height: 52vh;
                     padding: 0 !important;
@@ -193,7 +193,7 @@
                 color: $ekocell-white;
                 z-index: 0;
 
-                @media screen and (max-width: 768px) {
+                @media screen and (max-width:1000px) {
                     width: 90%;
                     padding: 10px;
                     top: -50px !important;
@@ -204,7 +204,7 @@
                     padding-left: 70px;
                     margin-left: -30px;
 
-                    @media screen and (max-width: 768px) {
+                    @media screen and (max-width:1000px) {
                         margin: 0;
                         padding: 20px;
                     }
@@ -215,7 +215,7 @@
                     margin-right: -30px;
                     flex-direction: column-reverse;
 
-                    @media screen and (max-width: 768px) {
+                    @media screen and (max-width:1000px) {
                         margin: 0;
                         padding: 20px;
                     }
@@ -227,9 +227,9 @@
                     font-weight: 400;
                     line-height: normal;
                     font-family: $ekocell-font;
-                    color: $ekocell-white;
+                    color: $ekocell-white; 
 
-                    @media screen and (max-width: 768px) {
+                    @media screen and (max-width:1000px) {
                         font-size: 20px;
                         margin-bottom: 10px;
                     }
@@ -239,10 +239,10 @@
                     font-size: 18px;
                     font-style: normal;
                     font-weight: 300;
-                    line-height: 38px;
+                    line-height: 30px;
                     color: $ekocell-white;
 
-                    @media screen and (max-width: 768px) {
+                    @media screen and (max-width:1000px) {
                         font-size: 14px;
                         line-height: 25px;
                         max-height: 200px;
@@ -264,7 +264,7 @@
                     color: $ekocell-white;
                     transition: 0.3s ease-in-out;
 
-                    @media screen and (max-width: 768px) {
+                    @media screen and (max-width:1000px) {
                         padding: 8px 15px;
                         font-size: 14px;
                         margin-top: 25px;
